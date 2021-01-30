@@ -20,7 +20,7 @@ class Content extends React.Component{
         return(<div style={style}>
             <BrowserRouter>
                 <Switch>
-                    <Route path={"/about"} component={About}/>
+                   {/* <Route path={"/about"} component={About}/>*/}
                     <Route path={"/games"} component={Games}/>
                     <Route path={"/shops"} component={Shops}/>
                     <Route path={"/admin"} component={Admin}/>
